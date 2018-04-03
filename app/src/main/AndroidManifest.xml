@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.momen.alomusicplayer">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/music_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/music_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NowPlaying"
+            android:label="Now Playing" />
+        <activity
+            android:name=".popMusic"
+            android:label="Pop Music" />
+        <activity
+            android:name=".classicMusic"
+            android:label="Classic Music" />
+        <activity
+            android:name=".myList"
+            android:label="My list"></activity>
+    </application>
+
+</manifest>

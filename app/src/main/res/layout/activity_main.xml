@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        style="@style/CategoryStyle"
+        android:src="@drawable/musi"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/now_playing"
+        style="@style/CategoryStyle"
+        android:text="Now playing"
+        android:background="@drawable/abstractimage1"/>
+
+    <TextView
+        android:id="@+id/pop_music"
+        style="@style/CategoryStyle"
+        android:text="Pop music"
+        android:background="@drawable/abstractimage2"/>
+
+    <TextView
+        android:id="@+id/classic_music"
+        style="@style/CategoryStyle"
+        android:text="Classic music"
+        android:background="@drawable/classic"/>
+
+    <TextView
+        android:id="@+id/my_list"
+        style="@style/CategoryStyle"
+        android:text="My list"
+        android:background="@drawable/mylist"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF00"
+        android:layout_gravity="center"
+        android:text="Copyright © 2018 - Udacity/ABND"/>
+
+
+</LinearLayout>
